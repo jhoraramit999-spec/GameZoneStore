@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ mode }} | GameZone Store</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<style>
+.auth-wrap{min-height:75vh;display:flex;align-items:center;justify-content:center;padding:35px 16px}
+.auth-card{width:min(420px,100%);padding:32px;border:1px solid #343044;border-radius:18px;background:#171522;box-shadow:0 18px 55px #0007}
+.auth-card h1{margin:0 0 8px}.auth-card p{color:#aaa}.auth-card label{display:block;margin:18px 0 7px}
+.auth-card input{box-sizing:border-box;width:100%;padding:13px;border:1px solid #484258;border-radius:9px;background:#0e0d15;color:white;font-size:16px}
+.auth-card button{width:100%;margin-top:22px;padding:13px;border:0;border-radius:9px;background:#7546d8;color:white;font-weight:700;font-size:16px;cursor:pointer}
+.auth-card a{color:#b99aff}.auth-error{color:#ff8585}
+</style>
+</head>
+<body>
+<header class="header">
+  <a href="/" class="logo">GAMEZONE</a>
+  <nav><a href="/">Store</a></nav>
+</header>
+<main class="auth-wrap">
+<section class="auth-card">
+<h1>{{ mode }} to GameZone</h1>
+<p>{% if mode == "Login" %}Welcome back. Sign in to continue.{% else %}Create your free GameZone account.{% endif %}</p>
+<form method="POST">
+<label for="username">Username</label>
+<input id="username" name="username" type="text" autocomplete="username" required minlength="3">
+<label for="password">Password</label>
+<input id="password" name="password" type="password" autocomplete="{% if mode == 'Login' %}current-password{% else %}new-password{% endif %}" required minlength="6">
+<button type="submit">{% if mode == "Login" %}Login{% else %}Create Account{% endif %}</button>
+</form>
+<p>{% if mode == "Login" %}New to GameZone? <a href="/register">Create an account</a>{% else %}Already registered? <a href="/login">Login here</a>{% endif %}</p>
+<a href="/">← Back to Store</a>
+</section>
+</main>
+</body>
+</html>

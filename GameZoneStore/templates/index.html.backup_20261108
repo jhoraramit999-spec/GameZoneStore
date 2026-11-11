@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GameZone Store</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="/">GAME<span>ZONE</span></a>
+  <nav>
+    <a href="/">Store</a></strong>
+          <button class="add" data-id="{{ g.id }}" data-price="{{ g.price }}" onclick="addFromCard(this)">Add to cart</button>
+        </div>
+      </div>
+    </article>
+  {% endfor %}
+  </div>
+</main>
+<footer><a class="logo" href="/">GAME<span>ZONE</span></a><p>© 2026 GameZone Store. All rights reserved.</p><span>Secure game checkout</span></footer>
+<dialog id="cart" class="cart-dialog">
+  <h2>Your cart</h2>
+  <div id="items"></div>
+  <p id="total"></p>
+  <div class="cart-actions"><button class="add" onclick="checkout()">Pay with Razorpay</button><button class="close-cart" onclick="document.getElementById('cart').close()">Continue shopping</button></div>
+</dialog>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

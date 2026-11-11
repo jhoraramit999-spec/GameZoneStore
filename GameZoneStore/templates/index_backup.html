@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GameZone Store</title><link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header><a class="logo" href="/">GAMEZONE</a><nav><a href="/">Store</a><a href="/login">Login</a><a href="/register">Sign up</a><button onclick="showCart()">Cart 🛒 <b id="count">0</b></button></nav></header>
+<section class="hero"><p>THE ULTIMATE PC GAMING MARKETPLACE</p><h1>FIND YOUR NEXT<br><span>ADVENTURE</span></h1><p>Explore popular PC games and build your collection.</p><a class="cta" href="#games">EXPLORE GAMES</a></section>
+<main id="games"><h2>Featured PC Games</h2><input id="search" placeholder="Search games..." oninput="filterGames()"><div class="grid">
+{% for g in games %}
+<article class="game"><img src="{{g.image}}" alt="{{g.name}}"><div class="info"><h3>{{g.name}}</h3><p>{{g.description}}</p><div class="buy"><strong>₹{{g.price}}</strong><button class="add" data-id="{{g.id}}" data-price="{{g.price}}" onclick="addFromCard(this)">Add to cart</button></div><a href="https://www.minecraft.net/en-us/download" target="_blank" class="add" style="display:inline-block;margin-top:12px;padding:12px;text-decoration:none">DOWNLOAD</a></div></article>
+{% endfor %}
+</div></main><footer>GAMEZONE STORE · PC GAMING MARKETPLACE</footer>
+<dialog id="cart"><h2>Your Cart</h2><div id="items"></div><p id="total"></p><button onclick="checkout()">Checkout</button><button onclick="document.getElementById('cart').close()">Close</button></dialog>
+<script src="/static/script.js"></script></body></html>

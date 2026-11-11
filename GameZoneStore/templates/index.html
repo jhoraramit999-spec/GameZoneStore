@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GameZone Store</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="/">GAME<span>ZONE</span></a>
+    <nav>
+      <a href="/">Store</a>
+      {% if user %}
+        <span>Welcome, {{ user }}</span>
+        <a href="/logout">Logout</a>
+      {% else %}
+        <a href="/login">Login</a>
+        <a href="/register">Register</a>
+      {% endif %}
+      <button type="button" onclick="showCart()">Cart (<span id="count">0</span>)</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <p>YOUR NEXT ADVENTURE STARTS HERE</p>
+    <h1>Level up your <span>game.</span></h1>
+    <p>Discover popular PC games at great prices.</p>
+    <a class="cta" href="#games">Explore games</a>
+  </section>
+
+  <main id="games">
+    <h2>Featured Games</h2>
+    <input id="search" type="search" placeholder="Search games..." oninput="filterGames()">
+    <div class="grid">
+      {% for g in games %}
+      <article class="game">
+        <img src="{{ g.image }}" alt="{{ g.name }}" loading="lazy">
+        <div class="info">
+          <h3>{{ g.name }}</h3>
+          <p>{{ g.description }}</p>
+          <div class="buy">
+            <strong>₹{{ "{:,}".format(g.price) }}</strong>
+            <button class="add" type="button" data-id="{{ g.id }}" data-price="{{ g.price }}" onclick="addFromCard(this)">Add to cart</button>
+          </div>
+        </div>
+      </article>
+      {% else %}
+      <p>No games available right now.</p>
+      {% endfor %}
+    </div>
+  </main>
+
+  <footer>
+    <a class="logo" href="/">GAME<span>ZONE</span></a>
+    <p>© 2026 GameZone Store. All rights reserved.</p>
+    <span>Secure game checkout</span>
+  </footer>
+
+  <dialog id="cart" class="cart-dialog">
+    <h2>Your cart</h2>
+    <div id="items"></div>
+    <p id="total"></p>
+    <div class="cart-actions">
+      <button class="add" type="button" onclick="checkout()">Pay with Razorpay</button>
+      <button class="close-cart" type="button" onclick="document.getElementById('cart').close()">Continue shopping</button>
+    </div>
+  </dialog>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+  <script>loadCart();</script>
+</body>
+</html>

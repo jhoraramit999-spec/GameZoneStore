@@ -1,0 +1,596 @@
+[
+  {
+    "name": "Cyberpunk 2077",
+    "price": 2499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
+    "description": "Open world RPG"
+  },
+  {
+    "name": "Forza Horizon 5",
+    "price": 1999,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1551360/header.jpg",
+    "description": "Racing game"
+  },
+  {
+    "name": "Minecraft",
+    "price": 3379,
+    "image": "/static/images/minecraft.jpg",
+    "description": "Build your world"
+  },
+  {
+    "name": "GTA V",
+    "price": 1499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/header.jpg",
+    "description": "Open world action"
+  },
+  {
+    "name": "Counter-Strike",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/10/header.jpg",
+    "description": "PC game by Valve."
+  },
+  {
+    "name": "Half-Life",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/70/header.jpg",
+    "description": "PC game by Valve."
+  },
+  {
+    "name": "Half-Life 2",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/220/header.jpg",
+    "description": "PC game by Valve."
+  },
+  {
+    "name": "Counter-Strike: Source",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/240/header.jpg",
+    "description": "PC game by Valve."
+  },
+  {
+    "name": "Half-Life 2: Deathmatch",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/320/header.jpg",
+    "description": "PC game by Valve."
+  },
+  {
+    "name": "Half-Life 2: Lost Coast",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/340/header.jpg",
+    "description": "PC game by Valve."
+  },
+  {
+    "name": "Half-Life Deathmatch: Source",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/360/header.jpg",
+    "description": "PC game by Valve."
+  },
+  {
+    "name": "Half-Life 2: Episode One",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/380/header.jpg",
+    "description": "PC game by Valve."
+  },
+  {
+    "name": "Portal",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/400/header.jpg",
+    "description": "PC game by Valve."
+  },
+  {
+    "name": "Team Fortress 2",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/440/header.jpg",
+    "description": "PC game by Valve."
+  },
+  {
+    "name": "Left 4 Dead",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/500/header.jpg",
+    "description": "PC game by Valve."
+  },
+  {
+    "name": "Left 4 Dead 2",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/550/header.jpg",
+    "description": "PC game by Valve."
+  },
+  {
+    "name": "Dota 2",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
+    "description": "PC game by Valve."
+  },
+  {
+    "name": "Portal 2",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/620/header.jpg",
+    "description": "PC game by Valve."
+  },
+  {
+    "name": "Counter-Strike 2",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg",
+    "description": "PC game by Valve."
+  },
+  {
+    "name": "Garry's Mod",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4000/header.jpg",
+    "description": "PC game by Facepunch Studios."
+  },
+  {
+    "name": "Crysis",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/17300/header.jpg",
+    "description": "PC game by Crytek."
+  },
+  {
+    "name": "Crysis Warhead®",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/17330/header.jpg",
+    "description": "PC game by Crytek."
+  },
+  {
+    "name": "SPORE™",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/17390/header.jpg",
+    "description": "PC game by Maxis™."
+  },
+  {
+    "name": "Mirror's Edge™",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/17410/header.jpg",
+    "description": "PC game by DICE."
+  },
+  {
+    "name": "Fallout: New Vegas",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/22380/header.jpg",
+    "description": "PC game by Obsidian Entertainment."
+  },
+  {
+    "name": "FINAL FANTASY XIV Online",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/39210/header.jpg",
+    "description": "PC game by Square Enix."
+  },
+  {
+    "name": "Terraria",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
+    "description": "PC game by Re-Logic."
+  },
+  {
+    "name": "Project Zomboid",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/108600/header.jpg",
+    "description": "PC game by The Indie Stone."
+  },
+  {
+    "name": "PAYDAY 2",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/218620/header.jpg",
+    "description": "PC game by OVERKILL - a Starbreeze Studio.."
+  },
+  {
+    "name": "Warframe",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/230410/header.jpg",
+    "description": "PC game by Digital Extremes."
+  },
+  {
+    "name": "War Thunder",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/236390/header.jpg",
+    "description": "PC game by Gaijin Entertainment."
+  },
+  {
+    "name": "The Forest",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/242760/header.jpg",
+    "description": "PC game by Endnight Games Ltd."
+  },
+  {
+    "name": "The Binding of Isaac: Rebirth",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/250900/header.jpg",
+    "description": "PC game by Nicalis, Inc.."
+  },
+  {
+    "name": "7 Days to Die",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/251570/header.jpg",
+    "description": "PC game by The Fun Pimps."
+  },
+  {
+    "name": "Rust",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/252490/header.jpg",
+    "description": "PC game by Facepunch Studios."
+  },
+  {
+    "name": "Rocket League®",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/252950/header.jpg",
+    "description": "PC game by Psyonix LLC."
+  },
+  {
+    "name": "Subnautica",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/264710/header.jpg",
+    "description": "PC game by Unknown Worlds Entertainment."
+  },
+  {
+    "name": "Grand Theft Auto V",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/header.jpg",
+    "description": "PC game by Rockstar North."
+  },
+  {
+    "name": "No Man's Sky",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/275850/header.jpg",
+    "description": "PC game by Hello Games."
+  },
+  {
+    "name": "Stellaris",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/281990/header.jpg",
+    "description": "PC game by Paradox Development Studio."
+  },
+  {
+    "name": "The Witcher 3: Wild Hunt",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
+    "description": "PC game by CD Projekt Red."
+  },
+  {
+    "name": "RimWorld",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/294100/header.jpg",
+    "description": "PC game by Ludeon Studios."
+  },
+  {
+    "name": "Geometry Dash",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/322170/header.jpg",
+    "description": "PC game by RobTop Games."
+  },
+  {
+    "name": "Don't Starve Together",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/322330/header.jpg",
+    "description": "PC game by Klei Entertainment."
+  },
+  {
+    "name": "DARK SOULS™ II: Scholar of the First Sin",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/335300/header.jpg",
+    "description": "PC game by FromSoftware, Inc.."
+  },
+  {
+    "name": "ARK: Survival Evolved",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/346110/header.jpg",
+    "description": "PC game by Studio Wildcard."
+  },
+  {
+    "name": "Deadhold",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/346930/header.jpg",
+    "description": "PC game by Dark Quarry Games."
+  },
+  {
+    "name": "Hollow Knight",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/367520/header.jpg",
+    "description": "PC game by Team Cherry."
+  },
+  {
+    "name": "DARK SOULS™ III",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/374320/header.jpg",
+    "description": "PC game by FromSoftware, Inc.."
+  },
+  {
+    "name": "Fallout 4",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/377160/header.jpg",
+    "description": "PC game by Bethesda Game Studios."
+  },
+  {
+    "name": "Dead by Daylight",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/381210/header.jpg",
+    "description": "PC game by Behaviour Interactive."
+  },
+  {
+    "name": "Stardew Valley",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/413150/header.jpg",
+    "description": "PC game by ConcernedApe."
+  },
+  {
+    "name": "Resident Evil 7 Biohazard",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/418370/header.jpg",
+    "description": "PC game by CAPCOM Co., Ltd.."
+  },
+  {
+    "name": "Factorio",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/427520/header.jpg",
+    "description": "PC game by Wube Software LTD.."
+  },
+  {
+    "name": "VRChat",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/438100/header.jpg",
+    "description": "PC game by VRChat Inc.."
+  },
+  {
+    "name": "Human Fall Flat",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/477160/header.jpg",
+    "description": "PC game by No Brakes Games."
+  },
+  {
+    "name": "The Elder Scrolls V: Skyrim Special Edition",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/489830/header.jpg",
+    "description": "PC game by Bethesda Game Studios."
+  },
+  {
+    "name": "Satisfactory",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/526870/header.jpg",
+    "description": "PC game by Coffee Stain Studios."
+  },
+  {
+    "name": "Black Squad",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/550650/header.jpg",
+    "description": "PC game by VALOFE."
+  },
+  {
+    "name": "HELLDIVERS™ 2",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/553850/header.jpg",
+    "description": "PC game by Arrowhead Game Studios."
+  },
+  {
+    "name": "PUBG: BATTLEGROUNDS",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/578080/header.jpg",
+    "description": "PC game by KRAFTON."
+  },
+  {
+    "name": "Monster Hunter: World",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/582010/header.jpg",
+    "description": "PC game by CAPCOM Co., Ltd.."
+  },
+  {
+    "name": "Raft",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/648800/header.jpg",
+    "description": "PC game by Redbeet Interactive."
+  },
+  {
+    "name": "Assassin's Creed® Odyssey",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/812140/header.jpg",
+    "description": "PC game by Ubisoft Quebec."
+  },
+  {
+    "name": "Sekiro: Shadows Die Twice",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/header.jpg",
+    "description": "PC game by FromSoftware."
+  },
+  {
+    "name": "Resident Evil 2",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/883710/header.jpg",
+    "description": "PC game by CAPCOM Co., Ltd.."
+  },
+  {
+    "name": "Valheim",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/892970/header.jpg",
+    "description": "PC game by Iron Gate AB."
+  },
+  {
+    "name": "Among Us",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/945360/header.jpg",
+    "description": "PC game by Innersloth."
+  },
+  {
+    "name": "Bloons TD 6",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/960090/header.jpg",
+    "description": "PC game by Ninja Kiwi."
+  },
+  {
+    "name": "Halo: The Master Chief Collection",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/976730/header.jpg",
+    "description": "PC game by 343 Industries."
+  },
+  {
+    "name": "Hogwarts Legacy",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/header.jpg",
+    "description": "PC game by Avalanche Software."
+  },
+  {
+    "name": "Baldur's Gate 3",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/header.jpg",
+    "description": "PC game by Larian Studios."
+  },
+  {
+    "name": "Hades II",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1145350/header.jpg",
+    "description": "PC game by Supergiant Games."
+  },
+  {
+    "name": "Hades",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/header.jpg",
+    "description": "PC game by Supergiant Games."
+  },
+  {
+    "name": "Apex Legends™",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172470/header.jpg",
+    "description": "PC game by Respawn."
+  },
+  {
+    "name": "Sea of Thieves: 2026 Edition",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172620/header.jpg",
+    "description": "PC game by Rare Ltd."
+  },
+  {
+    "name": "Red Dead Redemption 2",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/header.jpg",
+    "description": "PC game by Rockstar Games."
+  },
+  {
+    "name": "Resident Evil Village",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1196590/header.jpg",
+    "description": "PC game by CAPCOM Co., Ltd.."
+  },
+  {
+    "name": "Battlefield™ V",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1238810/header.jpg",
+    "description": "PC game by DICE."
+  },
+  {
+    "name": "Battlefield™ 1",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1238840/header.jpg",
+    "description": "PC game by DICE."
+  },
+  {
+    "name": "Halo Infinite",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1240440/header.jpg",
+    "description": "PC game by 343 Industries."
+  },
+  {
+    "name": "Elden Ring",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
+    "description": "PC game by FromSoftware."
+  },
+  {
+    "name": "Days Gone",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1259420/header.jpg",
+    "description": "PC game by Bend Studio."
+  },
+  {
+    "name": "PAYDAY 3",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1272080/header.jpg",
+    "description": "PC game by Starbreeze Studios."
+  },
+  {
+    "name": "Sons Of The Forest",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1326470/header.jpg",
+    "description": "PC game by Endnight Games Ltd."
+  },
+  {
+    "name": "MONSTER HUNTER RISE",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1446780/header.jpg",
+    "description": "PC game by CAPCOM Co., Ltd.."
+  },
+  {
+    "name": "FINAL FANTASY VII REMAKE INTERGRADE",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1462040/header.jpg",
+    "description": "PC game by Square Enix."
+  },
+  {
+    "name": "Battlefield™ 2042",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1517290/header.jpg",
+    "description": "PC game by DICE."
+  },
+  {
+    "name": "Palworld",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1623730/header.jpg",
+    "description": "PC game by Pocketpair."
+  },
+  {
+    "name": "Vampire Survivors",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1794680/header.jpg",
+    "description": "PC game by poncle."
+  },
+  {
+    "name": "Marvel’s Spider-Man Remastered",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1817070/header.jpg",
+    "description": "PC game by Insomniac Games."
+  },
+  {
+    "name": "Marvel’s Spider-Man: Miles Morales",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1817190/header.jpg",
+    "description": "PC game by Insomniac Games."
+  },
+  {
+    "name": "DAVE THE DIVER",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1868140/header.jpg",
+    "description": "PC game by MINTROCKET."
+  },
+  {
+    "name": "Call of Duty®",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1938090/header.jpg",
+    "description": "PC game by Treyarch."
+  },
+  {
+    "name": "Lethal Company",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1966720/header.jpg",
+    "description": "PC game by Zeekerss."
+  },
+  {
+    "name": "Resident Evil 4",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/header.jpg",
+    "description": "PC game by CAPCOM Co., Ltd.."
+  },
+  {
+    "name": "THE FINALS",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2073850/header.jpg",
+    "description": "PC game by Embark Studios."
+  },
+  {
+    "name": "Black Myth: Wukong",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2358720/header.jpg",
+    "description": "PC game by Game Science."
+  },
+  {
+    "name": "Balatro",
+    "price": 499,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2379780/header.jpg",
+    "description": "PC game by LocalThunk."
+  }
+]
