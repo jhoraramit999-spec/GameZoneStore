@@ -1,9 +1,7 @@
-
 <!doctype html>
 <html lang="en">
 <head>
-  <meta name="google-site-verification" content="qCoX4uRsehzRpG737js9Qkfaxr5R5LmO5QhoTwHPwhE" />
-
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>GameZone Store</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
@@ -63,12 +61,12 @@
     <h2>Your cart</h2>
     <div id="items"></div>
     <p id="total"></p>
+    <div id="payment-qr" hidden style="text-align:center;margin:18px 0"><h3>Scan to Pay</h3><img src="{{ url_for('static', filename='images/payment-qr.jpeg') }}" alt="Payment QR" style="width:240px;max-width:100%"><p id="qr-total"></p><p>Enter the amount shown above in your UPI app.</p></div>
     <div class="cart-actions">
-      <button class="add" type="button" onclick="checkout()">Pay with Razorpay</button>
+      <button class="add" type="button" onclick="checkout()">Show Payment QR</button>
       <button class="close-cart" type="button" onclick="document.getElementById('cart').close()">Continue shopping</button>
     </div>
   </dialog>
-
   <script src="{{ url_for('static', filename='script.js') }}"></script>
   <script>loadCart();</script>
 </body>

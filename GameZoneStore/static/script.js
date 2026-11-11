@@ -76,6 +76,13 @@ function escapeHTML(value) {
   return String(value).replace(/[&<>"']/g, ch => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;" }[ch]));
 }
 async function checkout() {
+  if (!cart.length) return alert('Your cart is empty.');
+  const qr = document.getElementById('payment-qr');
+  const amount = document.getElementById('qr-total');
+  if (qr) qr.hidden = false;
+  if (amount) amount.textContent = 'Amount to pay: ' + money(cart.reduce((sum, item) => sum + item.price * item.qty, 0));
+  return;
+
   if (!cart.length) return alert("Your cart is empty.");
   try {
     const response = await fetch("/api/order", {
